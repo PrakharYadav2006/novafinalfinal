@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Lighthouse · NovaDrive supplier risk platform</title>
+<meta name="description" content="Supplier-network risk intelligence and sourcing decision platform for the NovaDrive CRO. Case-competition prototype built on fictional case data.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e1a33'/%3E%3Cpath d='M16 5l4 8h-8zM13 14h6l1.5 11h-9z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261005-altdossier1">
+<link rel="stylesheet" href="assets/theme.css?v=20261005-altdossier1">
+</head>
+<body>
+<div id="app">
+  <nav id="nav" aria-label="Main"></nav>
+  <div id="main">
+    <header id="top">
+      <div class="search">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="9" r="6"/><path d="M14 14l4 4"/></svg>
+        <input id="q" type="search" autocomplete="off" placeholder="Search supplier, component, product or event" aria-label="Search supplier, component, product or event">
+        <div id="sres" class="sres" role="listbox"></div>
+      </div>
+      <div class="search-hint" id="shint" hidden>Try <button data-act="sq" data-q="IonPeak">IonPeak</button>·<button data-act="sq" data-q="Jade">Jade</button>·<button data-act="sq" data-q="M10">M10</button>·<button data-act="sq" data-q="C20">C20</button>·<button data-act="sq" data-q="EV-003">EV-003</button></div>
+      <div class="top-r">
+        <button class="btn" data-act="tour" title="Take the 30-second tour">Tour</button>
+        <button class="btn pri" data-act="ask">Ask Lighthouse</button>
+      </div>
+    </header>
+    <div id="ctxbar"></div>
+    <main id="view" tabindex="-1"></main>
+  </div>
+</div>
+<aside id="drawer" aria-label="Ask Lighthouse" aria-hidden="true" inert></aside>
+<div id="overlay" aria-hidden="true" inert></div>
+<div id="tip" role="tooltip"></div>
+<noscript><p style="padding:24px">Lighthouse needs JavaScript to run. All data is bundled in the page; nothing is sent to a server.</p></noscript>
+<script src="assets/data.js?v=20261005-altdossier1"></script>
+<script src="assets/logic.js?v=20261005-altdossier1"></script>
+<script src="assets/ui.js?v=20261005-altdossier1"></script>
+<script src="assets/p_overview.js?v=20261005-altdossier1"></script>
+<script src="assets/p_network.js?v=20261005-altdossier1"></script>
+<script src="assets/p_supplier.js?v=20261005-altdossier1"></script>
+<script src="assets/p_risk.js?v=20261005-altdossier1"></script>
+<script src="assets/p_events.js?v=20261005-altdossier1"></script>
+<script src="assets/p_sourcing.js?v=20261005-altdossier1"></script>
+<script src="assets/p_scenario.js?v=20261005-altdossier1"></script>
+<script src="assets/p_evidence.js?v=20261005-altdossier1"></script>
+<script src="assets/p_misc.js?v=20261005-altdossier1"></script>
+<script src="assets/p_ask.js?v=20261005-altdossier1"></script>
+<script src="assets/shell.js?v=20261005-altdossier1"></script>
+<script src="assets/boot.js?v=20261005-altdossier1"></script>
+</body>
+</html>
