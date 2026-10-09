@@ -85,3 +85,5 @@ python3 build/build_lighthouse_data.py
 ## Architecture
 
 [![Architecture diagram of prakharyadav2006/novadrive](https://gitdiagram.com/prakharyadav2006/novadrive/diagram.png)](https://gitdiagram.com/prakharyadav2006/novadrive?utm_source=readme&utm_medium=picture)
+
+WE have uploaded all the important documents pdfs related to the appendix in a folder named "punlic_info". You can download and view the .xlsx and .pdf files from there
